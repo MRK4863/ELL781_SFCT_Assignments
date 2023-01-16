@@ -1,0 +1,26 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "e:\\IIT_DELHI\\SEM_1\\1. SOFTWARE_FUNDAMENTALS\\4. ASSIGNMENTS\\G3_2021EEY7514_2021EEY7512_A3",
+      "environment": [],
+      "program": "e:\\IIT_DELHI\\SEM_1\\1. SOFTWARE_FUNDAMENTALS\\4. ASSIGNMENTS\\G3_2021EEY7514_2021EEY7512_A3\\build\\Debug\\outDebug",
+      "internalConsoleOptions": "openOnSessionStart",
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
+      "externalConsole": false,
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

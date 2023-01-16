@@ -1,0 +1,24 @@
+pq_adt* insert_into_pqueue(pq_adt* H, pq_element val)
+{
+    H.pq[H.size] = val;
+    int i = H.size;
+    pq_element temp;
+ 
+    while (i >= 1) 
+    {
+        if (H.pq[i / 2].weight > H.pq[i].weight) 
+        {
+            temp = H.pq[i / 2];
+            H.pq[i / 2] = H.pq[i];
+            H.pq[i] = temp;
+ 
+            i = i / 2;
+        } 
+        else 
+        {
+            break;
+        }
+    }
+    H.size++;
+    return H;
+}
